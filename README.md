@@ -30,12 +30,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 .map returns a new array with the modified elemts in that specific array.
 
 2. Explain the difference between a callback and a higher order function.
-
+   callback function - is a function that is passed as another function
+   higher order function - A function that accepts other functions as its arguments
 3. What is closure?
 
 4. Describe the four rules of the 'this' keyword.
 
+Window/Global Object Binding- When in global scope, this will be the window object
+
+Implicit Binding - When preceding dot calls a function, the object before the dot is this
+
+New binding- When we use we use a constructor function 'this' refers to the specific instance of the object that is created and returned by the constructor function
+
+Explicit binding- When using javascript call or apply method, this is explicty defined.
+
 5. Why do we need super() in an extended class?
+
+   So we can refer back to the parent class
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
