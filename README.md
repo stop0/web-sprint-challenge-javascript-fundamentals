@@ -34,6 +34,8 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
    higher order function - A function that accepts other functions as its arguments
 3. What is closure?
 
+A Combantion of functions that are enclosed. Used so we can contain our scope and not constatnly work in the global scope enviroment.
+
 4. Describe the four rules of the 'this' keyword.
 
 Window/Global Object Binding- When in global scope, this will be the window object
